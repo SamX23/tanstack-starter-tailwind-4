@@ -1,0 +1,22 @@
+{
+  "quoteProps": "preserve",
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "importOrder": [
+    "<TYPES>^react$",
+    "<TYPES>",
+    "<TYPES>^[.]",
+    "",
+    "^react$",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^(@)(/.*)$",
+    "^[.]"
+  ]
+}
